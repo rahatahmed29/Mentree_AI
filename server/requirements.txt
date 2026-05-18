@@ -1,0 +1,12 @@
+# Python dependencies for the backend.
+# Install with: pip install -r requirements.txt
+
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+python-jose[cryptography]
+passlib[bcrypt]
+pydantic-settings
+python-dotenv
+alembic
